@@ -38,4 +38,8 @@ function deleteTask(e) {
     e.target.parentElement.parentElement.remove();
 };
 
+function completeTask (e) {
+    e.target.parentElement.classList.toggle('complete');
+}
+
 
